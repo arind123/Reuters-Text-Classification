@@ -1,3 +1,5 @@
+
+################################################# Useful commands ############################
 $ git init       ----------> Initialize Local git repository
 $ git add <file> ----------> Add files to index
 $ git status     ----------> Check status of working Tree
@@ -9,7 +11,7 @@ $ git clone      ----------> Clone repository into new direction
 ## TO ADD MULTIPLE FILES AT ONCE##
 
 $ git add -A     ----------> To add multiple files at an instance
-$ git commit -a  ----------> TO commit multiple files at once
+$ git commit -a -m ----------> TO commit multiple files at once
 
 ## TO SEE THE GIT UPDATES THAT HAS BEEN DONE ##
 
@@ -18,7 +20,19 @@ $ git log
 
 
 ################################################################ Step by step #################################################################
-1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu)
-2. use git init
+1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu).
+
+2. use: git init.
+
 3. git remote add <name you want to give to your central repository> <the origin> e.g. get remote add origin https://github.com/arind123/arinML1.git 
-   *imp. : Before your first commit you cannot see anything neither can you push to origin repository from your local repository
+   *imp. : Before you pull(next step) you cannot see anything neither can you push to origin repository from your local repository. You may or may not 		use "" ,while typing origin https link.
+
+4. next use: git pull origin master (from the origin to the master(in your local repository) )
+
+5: next use: git status ---> shows the changes in files that are yet to be committed
+
+6: next : git add <file name> e.g.: git add Git_Help 
+
+7. next: commit the change using git commit Git commit Git_Help -m
+	* u one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'  
+
