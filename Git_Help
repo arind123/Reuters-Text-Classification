@@ -1,5 +1,5 @@
 
-################################################# Useful commands ############################
+                          ################################# Useful commands ############################
 $ git init       ----------> Initialize Local git repository
 $ git add <file> ----------> Add files to index
 $ git status     ----------> Check status of working Tree
@@ -17,8 +17,6 @@ $ git commit -a -m ----------> TO commit multiple files at once
 
 $ git log
 
-
-
 ################################################################ Step by step changing ###############################################################
 1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu).
 
@@ -34,12 +32,25 @@ $ git log
 6: next : git add <file name> e.g.: git add Git_Help 
 
 7. next: commit the change using git commit Git commit Git_Help -m
-	* u one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'
+	* one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'
 
-######################################## Branches and all ###########################
+                         ######################################## Branches and all ###########################
 1. To create a branch from master use: git branch <branch name> e.g. git branch firstbranch
 
 2. To switch to the created branch use: git checkout firstbranch
+	* now if we go back to the folder, what it is showing, is of the branch, created from the master.
+
+3. Similarly as before using command mentioned in "Step by step changing" we can add and commit changes to the first branch *BUT* they will not be yet showing up in master.
+
+4. To move back to te master use: git checkout master
+
+                                             ## NEXT WE NEED TO MERGE THE BRANCHES TO THE MASTER ##
+
+
+
+
+
+
 
 
 
