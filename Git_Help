@@ -1,0 +1,24 @@
+$ git init       ----------> Initialize Local git repository
+$ git add <file> ----------> Add files to index
+$ git status     ----------> Check status of working Tree
+$ git commit -m  ----------> Commit changes in Index ('-m' is to provide a messege wile comitting) 
+$ git push       ----------> Push to remote repository
+$ git pull       ----------> Pull latest from remote repository
+$ git clone      ----------> Clone repository into new direction    
+
+## TO ADD MULTIPLE FILES AT ONCE##
+
+$ git add -A     ----------> To add multiple files at an instance
+$ git commit -a  ----------> TO commit multiple files at once
+
+## TO SEE THE GIT UPDATES THAT HAS BEEN DONE ##
+
+$ git log
+
+
+
+################################################################ Step by step #################################################################
+1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu)
+2. use git init
+3. git remote add <name you want to give to your central repository> <the origin> e.g. get remote add origin https://github.com/arind123/arinML1.git 
+   *imp. : Before your first commit you cannot see anything neither can you push to origin repository from your local repository
