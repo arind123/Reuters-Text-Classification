@@ -52,8 +52,15 @@ $ git log
                                             .............................................................................
 FIRST AND FOREMOST,MAKE SURE YOU ARE IN THE MASTER BRANCH. 
 To merge use: git merge <branchname> e.g.: git merge firstbranch
+<<<<<<< HEAD
 
 Then, we can go back to firstbranch again, it will not show in master unless and until you merge it again.
+
+*If you had already indexed a change before YOU DO NOT NEED TO add it again and then commit, one can simply use: git commit -a -m "<messege>".
+
+
+Then, we can go back to firstbranch again, it will not show in master unless and until you merge it again.
+
 
 *If you had already indexed a change before YOU DO NOT NEED TO add it again and then commit, one can simply use: git commit -a -m "<messege>".
 
@@ -63,6 +70,10 @@ Then, we can go back to firstbranch again, it will not show in master unless and
 
 use command: git rebase master --> from the firstbranch./ git rebase firstbranch -->from the master
 
+                                                        ############## To Push( the final one ) #########
+
+1. create kegen verify: ssh keygen
+2. then push.
 
 
 
