@@ -1,6 +1,6 @@
 # arinML1
 Data
-We will consider the Renters-21578 data set. It is new wire of 1987.The documents were originally
+We will consider the Reuters-21578 data set. It is new wire of 1987.The documents were originally
 assembled and ordered with categories by Carnegi Group Inc. and Returns Ltd. The corpus
 originally contains 135 categories and the categories are overlapped i.e., one document may exists
 in several categories. Hence we will consider the Mod Apte version of Renters.The ModApte
