@@ -1,12 +1,14 @@
 
-                          ################################# Useful commands ############################
-$ git init       ----------> Initialize Local git repository
-$ git add <file> ----------> Add files to index
-$ git status     ----------> Check status of working Tree
-$ git commit -m  ----------> Commit changes in Index ('-m' is to provide a messege wile comitting) 
-$ git push       ----------> Push to remote repository
-$ git pull       ----------> Pull latest from remote repository
-$ git clone      ----------> Clone repository into new direction    
+                                                       .................................
+                              ################################# Useful commands ############################
+                                                       .................................
+$ git init              ----------> Initialize Local git repository
+$ git add <file>        ----------> Add files to index
+$ git status            ----------> Check status of working Tree
+$ git commit <file> -m  ----------> Commit changes in Index ('-m' is to provide a messege wile comitting) 
+$ git push              ----------> Push to remote repository
+$ git pull              ----------> Pull latest from remote repository
+$ git clone             ----------> Clone repository into new direction    
 
 ## TO ADD MULTIPLE FILES AT ONCE##
 
@@ -16,8 +18,9 @@ $ git commit -a -m ----------> TO commit multiple files at once
 ## TO SEE THE GIT UPDATES THAT HAS BEEN DONE ##
 
 $ git log
-
+                                                       ..........................................
 ################################################################ Step by step changing ###############################################################
+                                                       ..........................................
 1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu).
 
 2. use: git init.
@@ -32,9 +35,10 @@ $ git log
 6: next : git add <file name> e.g.: git add Git_Help 
 
 7. next: commit the change using git commit Git commit Git_Help -m
-	* one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'
-
+	* one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A')
+                                                         ..................................
                          ######################################## Branches and all ###########################
+                                                         ..................................
 1. To create a branch from master use: git branch <branch name> e.g. git branch firstbranch
 
 2. To switch to the created branch use: git checkout firstbranch
@@ -43,12 +47,21 @@ $ git log
 3. Similarly as before using command mentioned in "Step by step changing" we can add and commit changes to the first branch *BUT* they will not be yet showing up in master.
 
 4. To move back to te master use: git checkout master
+                                            .............................................................................
+                       ################################ NEXT WE NEED TO MERGE THE BRANCHES TO THE MASTER ##############################
+                                            .............................................................................
+FIRST AND FOREMOST,MAKE SURE YOU ARE IN THE MASTER BRANCH. 
+To merge use: git merge <branchname> e.g.: git merge firstbranch
 
-                                             ## NEXT WE NEED TO MERGE THE BRANCHES TO THE MASTER ##
+Then, we can go back to firstbranch again, it will not show in master unless and until you merge it again.
 
+*If you had already indexed a change before YOU DO NOT NEED TO add it again and then commit, one can simply use: git commit -a -m "<messege>".
 
+                                       ...................................................................
+            ######################################################### Rebase #####################################################
+                                       ...................................................................
 
-
+use command: git rebase master --> from the firstbranch./ git rebase firstbranch -->from the master
 
 
 
