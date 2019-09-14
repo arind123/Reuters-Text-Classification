@@ -19,7 +19,7 @@ $ git log
 
 
 
-################################################################ Step by step #################################################################
+################################################################ Step by step changing ###############################################################
 1. Go to the folder then right click and "open in git bash"(for Windows in office) / "open in terminal"(for home Ubuntu).
 
 2. use: git init.
@@ -34,5 +34,17 @@ $ git log
 6: next : git add <file name> e.g.: git add Git_Help 
 
 7. next: commit the change using git commit Git commit Git_Help -m
-	* u one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'  
+	* u one can add/commit multiple file using commands: git add -A/ git commit -a -m   (Remember the distinction between 'a' and 'A'
+
+######################################## Branches and all ###########################
+1. To create a branch from master use: git branch <branch name> e.g. git branch firstbranch
+
+2. To switch to the created branch use: git checkout firstbranch
+
+
+
+
+
+
+  
 
