@@ -82,7 +82,18 @@ use command: git rebase master --> from the firstbranch./ git rebase firstbranch
 1. use command: git checkout <the first 8 digits of the commit command key from git log as to where it was changed> <name of the file>
 
  
+########################## Git use old key ###################
 
+1.
+sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+# start the ssh-agent in the background
+eval $(ssh-agent -s)
+# make ssh agent to actually use copied key
+ssh-add ~/.ssh/id_rsa
+
+2.
+or simply use push command if already used commands. (not sure about this one though may be if everything is rightly done it will work)
 
 
 
